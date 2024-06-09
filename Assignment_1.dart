@@ -102,19 +102,19 @@ void main() {
   print("Grade: $Grade");
 
   // Question 9
-  int num1 = 255;
+  int num1 = 256;
   num num2 = num1 % 2;
   if (num2 == 0) {
     if (num1 % 5 == 0) {
       print("Answer 9: The number is even and divisible by 5");
     } else {
-      print("Answer 9: The number is even but not divisible by 5");
+      print("Answer 9: The number is even and not divisible by 5");
     }
   } else if (num2 % 2 != 0) {
-    if (num1 % 5 == 0) {
-      print("Answer 9: The number is odd and divisible by 5");
+    if (num1 % 7 == 0) {
+      print("Answer 9: The number is odd and divisible by 7");
     } else {
-      print("Answer 9: The number is odd but not divisible by 5");
+      print("Answer 9: The number is odd and not divisible by 7");
     }
   }
 
